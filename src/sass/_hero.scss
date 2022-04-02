@@ -1,34 +1,11 @@
-.container1 {
-  width: 100%;
-  margin: 0 auto;
-  padding: 0 15px;
-  outline: 1px solid tomato;
-
-  @media screen and (min-width: 480px) {
-    width: 480px;
-  }
-
-  @media screen and (min-width: 768px) {
-    width: 768px;
-  }
-
-  @media screen and (min-width: 1200px) {
-    width: 1200px;
-  }
-}
-
-.header1 {
-  padding-top: 30px;
-}
-
-.hero1 {
+.hero {
   position: relative;
   background-color: bisque;
   z-index: -2;
   overflow: hidden;
 }
 
-.hero1__title::after {
+.hero__title::after {
   content: " ";
   display: block;
   position: absolute;
