@@ -1,32 +1,38 @@
-btn {
+.btn {
     border: 1px solid transparent;
     border-radius:22px ;
     cursor: pointer;
-    background-color: none;
-    border-radius: 22px;
     
 // в секции hero - font-size: 14px; - прописать отдельно
 }
+.btn--circle{
+height: 40px;
+width: 40px;
+border: 1px solid transparent;
+border-radius:50%;
+cursor: pointer;
+}
+
 .btn--transparent{
-    background-color: #FFFFFF;
-    color: #D41443;
+    background-color: var(--secondary-text);
+    color: var(--primary-accent);
 
     &:hover,
     &:focus{ 
-        background-color: #D41342;
-        color: #FFFFFF;
+        background-color: var(--primary-accent);
+        color: var(--secondary-text);
     }
 
 }
 
 .btn--accent {
-    background-color: #D41342;
-    color: #FFFFFF;
+    background-color: var(--primary-accent);
+    color: var(--secondary-text);
 
     &:hover,
     &:focus{
-        background-color: #FFFFFF;
-        color: #D41443;
+        background-color: var(--secondary-text);
+        color: var(--primary-accent);
     }
 
 }
