@@ -1,3 +1,13 @@
+body {
+    color: var($primary-text);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.75;
+    letter-spacing: 0.04em;
+    background-color: var(--hero-bg);
+}
+
 .element-hidden {
     position: absolute;
     white-space: nowrap;
