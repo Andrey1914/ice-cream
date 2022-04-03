@@ -1,9 +1,12 @@
 .btn {
     border: 1px solid transparent;
     border-radius:22px ;
+    font-size: 16px;
+    line-height: 1.31;
     cursor: pointer;
     
 // в секции hero - font-size: 14px; - прописать отдельно
+// font-weight - разный
 }
 .btn--circle{
 height: 40px;
@@ -16,6 +19,8 @@ cursor: pointer;
 .btn--transparent{
     background-color: var(--secondary-text);
     color: var(--primary-accent);
+    transition: color $transition-value,
+    background-color $transition-value;
 
     &:hover,
     &:focus{ 
@@ -28,6 +33,7 @@ cursor: pointer;
 .btn--accent {
     background-color: var(--primary-accent);
     color: var(--secondary-text);
+    transition: color $transition-value, background-color $transition-value;
 
     &:hover,
     &:focus{
