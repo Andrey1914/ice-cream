@@ -23,10 +23,7 @@ h2,
 h3,
 h4,
 h5,
-h6 {
-  margin: 0;
-}
-
+h6,
 p {
   margin: 0;
 }
@@ -46,6 +43,16 @@ ul {
   list-style: none;
   padding: 0;
   margin: 0;
+}
+
+body {
+  color: var(--primary-text);
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.75;
+  letter-spacing: 0.04em;
+  background-color: var(--hero-bg);
 }
 
 .element-hidden {
@@ -91,6 +98,8 @@ ul {
 .btn {
   border: 1px solid transparent;
   border-radius: 22px;
+  font-size: 16px;
+  line-height: 1.31;
   cursor: pointer;
 }
 
@@ -105,6 +114,7 @@ ul {
 .btn--transparent {
   background-color: var(--secondary-text);
   color: var(--primary-accent);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .btn--transparent:hover, .btn--transparent:focus {
   background-color: var(--primary-accent);
@@ -114,34 +124,9 @@ ul {
 .btn--accent {
   background-color: var(--primary-accent);
   color: var(--secondary-text);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .btn--accent:hover, .btn--accent:focus {
   background-color: var(--secondary-text);
   color: var(--primary-accent);
-}
-
-.example {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  line-height: 1.5;
-  background-color: #fff;
-  color: #424242;
-  max-width: 960px;
-  padding: 16px;
-}
-
-.example code {
-  font-family: monospace;
-  font-size: 16px;
-  font-weight: 700;
-  background-color: #009688;
-  color: #fff;
-  padding: 2px 6px;
-  border-radius: 2px;
-}
-
-.example .background {
-  height: 240px;
-  background-image: url("../images/demo.jpg");
-  background-size: cover;
-  background-position: center;
 }/*# sourceMappingURL=main.css.map */

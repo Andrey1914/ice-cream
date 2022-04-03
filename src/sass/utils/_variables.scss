@@ -8,11 +8,10 @@
 
     --primary-bg: rgba(255, 255, 255, 1);
     --secondary-bg:rgba(255, 245, 246, 1);
-
     --hero-bg: rgba(255, 184, 202, 1);
     --card-bg-second: rgba(240, 209, 165, 1);
     --card-bg-third :rgba(194, 226, 151, 1);
 
     --margin: 60px;
-    $transition-value: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+$transition-value: 250ms cubic-bezier(0.4, 0, 0.2, 1);
